@@ -1,0 +1,39 @@
+.chat {
+  overflow: auto;
+  clear: both;
+  margin: 10px 0;
+}
+.chat-bubble {
+  background-color: #e2f3f5;
+  padding: 10px 15px;
+  border-radius: 10px;
+  max-width: 80%;
+  word-wrap: break-word;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.chat-a {
+  float: left;
+  color: black;
+  background-color: #f0f0f0;
+}
+.chat-b {
+  float: right;
+  color: white;
+  background-color: #007bff;
+}
+
+.whatsapp-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.whatsapp-icon {
+  margin-right: 5px;
+}

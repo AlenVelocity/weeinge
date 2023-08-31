@@ -1,17 +1,18 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
-
+import { ImWhatsapp } from 'react-icons/im'
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: <span>Weebinge</span>,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://github.com/alenvelocity/weebinge',
   },
   chat: {
-    link: 'https://discord.com',
+    link: 'https://gg.gg/afc_weebs',
+    icon: <ImWhatsapp size={24}></ImWhatsapp>
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: 'https://github.com/alenvelocity/weeinge',
   footer: {
-    text: 'Nextra Docs Template',
+    text: 'Docs',
   },
 }
 
