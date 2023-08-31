@@ -4,7 +4,7 @@ import { ImWhatsapp } from 'react-icons/im'
 const config: DocsThemeConfig = {
   logo: <span>Weebinge</span>,
   project: {
-    link: 'https://github.com/alenvelocity/weebinge',
+    link: 'https://github.com/alenvelocity/weeinge',
   },
   chat: {
     link: 'https://gg.gg/afc_weebs',
