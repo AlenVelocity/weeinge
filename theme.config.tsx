@@ -30,6 +30,10 @@ const config: DocsThemeConfig = {
       return {
         titleTemplate: '%s – Weeinge'
       }
+    } else {
+      return { 
+        titleTemplate: "Weeinge: Get Weebvctmono'd"
+      }
     }
   }
 }
